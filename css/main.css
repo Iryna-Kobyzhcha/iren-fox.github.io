@@ -1,0 +1,46 @@
+body {
+  margin: 28px 31px;
+}
+
+h1,
+span {
+  color: #fe0f0f;
+}
+.new {
+  color: #ffffff;
+  width: 100px;
+  height: 80px;
+  background: blue;
+}
+.margin-120 {
+  margin-top: 120px;
+}
+h2 {
+  width: 2085px;
+  height: 49px;
+  padding: 9px;
+  background: #008001;
+  color: #ffffff;
+  box-sizing: border-box;
+}
+.one {
+  padding: 70px 60px 90px 40px;
+}
+a {
+  color: blue;
+}
+a:visited {
+  color: blue;
+}
+a:hover {
+  color: #fe0f0f;
+}
+.two {
+  margin: 28px 111px;
+}
+li {
+  border: 1px;
+  color: black;
+  border-style: solid;
+  font-size: 32px;
+}
