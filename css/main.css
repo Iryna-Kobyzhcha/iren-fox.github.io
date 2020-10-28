@@ -1,46 +1,213 @@
 body {
-  margin: 28px 31px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  color: #201b2d;
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+div,
+p,
+input,
+button,
+form,
+span,
+a,
+ul,
+li {
+  box-sizing: border-box;
 }
 
 h1,
-span {
-  color: #fe0f0f;
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
 }
-.new {
+
+p {
+  line-height: 1.65em;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.header {
+  background: rgba(77, 192, 253, 1);
+  background: -moz-linear-gradient(
+    -45deg,
+    rgba(77, 192, 253, 1) 0%,
+    rgba(144, 194, 234, 1) 100%
+  );
+  background: -webkit-gradient
+    (
+      left top,
+      right bottom,
+      color-stop (0%, rgba(77, 192, 253, 1)),
+      color-stop (100%, rgba(144, 194, 234, 1))
+    );
+  background: -webkit-linear-gradient(
+    -45deg,
+    rgba(77, 192, 253, 1) 0%,
+    rgba(144, 194, 234, 1) 100%
+  );
+  background: -o-linear-gradient(
+    -45deg,
+    rgba(77, 192, 253, 1) 0%,
+    rgba(144, 194, 234, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    -45deg,
+    rgba(77, 192, 253, 1) 0%,
+    rgba(144, 194, 234, 1) 100%
+  );
+  background: linear-gradient(
+    135deg,
+    rgba(77, 192, 253, 1) 0%,
+    rgba(144, 194, 234, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4dc0fd', endColorstr='#90c2ea', GradientType=1 );
+  padding-top: 60px;
+  padding-bottom: 150px;
   color: #ffffff;
-  width: 100px;
-  height: 80px;
-  background: blue;
 }
-.margin-120 {
-  margin-top: 120px;
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
 }
-h2 {
-  width: 2085px;
-  height: 49px;
-  padding: 9px;
-  background: #008001;
+
+.offer {
+  margin-top: 185px;
+  width: 580px;
+}
+
+.title {
+  font-size: 37px;
+}
+
+.title span {
+  font-size: 59px;
+}
+
+.intro {
+  margin-bottom: 47px;
+  margin-top: 40px;
+  font-size: 16px;
+  width: 410px;
+}
+
+.btn {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 16px;
+  background: #ffd43f;
+  color: #201b2d;
+  display: block;
+  width: 220px;
+  padding: 19px 0;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+.btn:hover {
+  background: #d3b71a;
+}
+.desktop {
+  margin-top: 50px;
+}
+
+.expectation {
+  padding-top: 100px;
+  padding-bottom: 120px;
+}
+.section-title {
+  font-size: 30px;
+  width: 1170px;
+  text-align: center;
+}
+
+.advantages {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.advantage {
+  width: 300px;
+  background: url("../img/icon1.jpg.png") no-repeat;
+  text-align: center;
+  padding-top: 30px;
+  background-position: top;
+}
+
+.advantage-title {
+  font-size: 19px;
+  margin-top: 65px;
+}
+
+.advantage-text {
+  margin-top: 7px;
+}
+
+.advantage-free {
+  width: 260px;
+  background: url("../img/icon2.jpg.png") no-repeat;
+  background-position: top;
+}
+
+.advantage-change {
+  background: url("../img/icons3.jpg.png") no-repeat;
+  background-position: top;
+}
+.order {
+  background: #ecf3f8;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.form {
+  margin-top: 60px;
+}
+
+.input {
+  display: block;
+  width: 340px;
+  border: 1px solid #bfb8d1;
+  font-size: 15px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  border-radius: 5px;
+  height: 48px;
+  padding-left: 24px;
+  margin: 15px 417px;
+}
+
+.btn-form {
+  border: 0;
+  cursor: pointer;
+  width: 340px;
+  margin-left: 0px;
+  margin: 15px 417px;
+}
+
+.footer {
+  padding: 60px 0;
+  background: #164d7a;
+}
+
+.credits {
   color: #ffffff;
-  box-sizing: border-box;
-}
-.one {
-  padding: 70px 60px 90px 40px;
-}
-a {
-  color: blue;
-}
-a:visited {
-  color: blue;
-}
-a:hover {
-  color: #fe0f0f;
-}
-.two {
-  margin: 28px 111px;
-}
-li {
-  border: 1px;
-  color: black;
-  border-style: solid;
-  font-size: 32px;
+  font-size: 14px;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
 }
